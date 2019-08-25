@@ -11,7 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.9.0",
-    "graphql": "^14.5.3"
+    "apollo-server-koa": "^2.9.0",
+    "dotenv": "^8.1.0",
+    "graphql": "^14.5.3",
+    "koa": "^2.8.1",
+    "lowdb": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "promises-all": "^1.0.0",
+    "shortid": "^2.2.14"
   },
   "devDependencies": {
     "nodemon": "^1.19.1",
