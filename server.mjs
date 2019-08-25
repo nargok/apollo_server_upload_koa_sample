@@ -1,11 +1,13 @@
 import apolloServerKoa from 'apollo-server-koa'
 import Koa from 'koa'
+import resolvers from './resolvers'
+import typeDefs from '/types'
 
 const app = new Koa()
 const server = new apolloServerKoa.ApolloServer({
   typeDefs,
   resolvers,
-  upload: {
+  uploads: {
     maxFileSize: 10000000,
     maxFiles: 20
   }
